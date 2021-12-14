@@ -6,11 +6,11 @@ input.onSound(DetectedSound.Loud, function () {
     if (luz == 0) {
         luz = 1
         basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             `)
         pins.digitalWritePin(DigitalPin.P0, 1)
     } else {
@@ -38,7 +38,4 @@ input.onButtonPressed(Button.B, function () {
             `)
         basic.pause(100)
     }
-})
-basic.forever(function () {
-	
 })
