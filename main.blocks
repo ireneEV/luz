@@ -11,9 +11,9 @@
         . . . . . 
         . . . . .
         `</field><next><block type="device_set_digital_pin" id="s3J{~6$h*f4W~75Wuc_`"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="[@V|#{#~:|V~,iq=bUW_"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">1</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="i6v-y!CA?(F?frBk{qpK" x="559" y="118"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="9%5)*3G}g`ro}dd`B%,Z"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="WP(xemwn`%.CGt{ft:al"/></value></block></statement></block><block type="device_button_event" id="7*z_pJpM=Wmb?grY?d=s" x="294" y="308"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="!L:r]#~OBT`V_-}j++0G"><value name="TIMES"><shadow type="math_whole_number" id="*2-;eL#z*IIHD(FZ[tDd"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="YlGtF]6rSRiGb#,U7~r6"><field name="i">IconNames.Square</field><next><block type="device_pause" id="BmMLLkC3z;O[PBPcHlDY"><value name="pause"><shadow type="timePicker" id="Cc9Y.7^V%mP;y,bbsuxZ"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="k2nq9S6!o/i8x_Qu!fk8"><field name="LEDS">`
-        # # # # # 
-        # . . . # 
-        # . . . # 
-        # . . . # 
-        # # # # #
-        `</field><next><block type="device_pause" id="bvDIa)Dgz;[FVi/tF:(i"><value name="pause"><shadow type="timePicker" id="bSFkzr[?gY(2Vs6cL^{l"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block></xml>
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="bvDIa)Dgz;[FVi/tF:(i"><value name="pause"><shadow type="timePicker" id="bSFkzr[?gY(2Vs6cL^{l"><field name="ms">130</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block></xml>
